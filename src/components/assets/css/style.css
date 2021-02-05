@@ -1,0 +1,105 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    
+    background-image: url('../images/back_img.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+
+    
+}
+
+.header{
+    background-color: rgb(157, 14, 223);
+    text-align: center;
+    border: 1px solid firebrick;
+    border-radius: 1rem;
+
+}
+
+.footer{
+    background-color: rgb(89, 9, 238);
+    bottom: 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    border-radius: 1rem;
+
+}
+.box{
+    border-radius: 1rem;
+    border: 1px solid green;
+    height: 60vh;
+    overflow: hidden;
+    position: relative;
+    width: 25vw;
+    margin: auto;
+    min-width: 20rem;
+    min-height: 35rem;
+    background-image: url('../images/box_img.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+ */
+
+ *{
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+     background-color: hotpink;
+     background-image: url('../images/back_img.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+
+ }
+ .app-container{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     width: 100vw;
+     height: 100vh;
+ }
+
+ .temp{
+     text-align: center;
+ }
+
+ .temp .temp-value{
+     font-size: 5rem;
+     color: rgb(223, 11, 159);
+ }
+
+ .temp .temp-unit{
+     color: rgb(18, 198, 230);
+     font-size: 5rem;
+ }
+ .temp .temp-unit1{
+    color: rgb(5, 194, 15);
+    font-size: 5rem;
+}
+
+ .temp-icon{
+     margin: 1rem;
+     width: 2px;
+     height: 3px;
+ }
+
+ .location{
+     font-family: sans-serif;
+     color: rgb(233, 10, 121);
+     font-size: 3rem;
+     margin: 2rem;
+     font-weight: 900;
+ }
+ .climate{
+     font-size: 2rem;
+     color: lightcyan;
+ }
+
+ .mod_ff{
+     color: rgb(218, 123, 15);
+     font-size: 20px;
+     font-weight: 600;
+     padding: 1rem;
+ }
